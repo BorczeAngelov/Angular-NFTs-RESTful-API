@@ -7,7 +7,7 @@
     <div>
       <mat-form-field appearance="fill" floatLabel="auto">
         <mat-label>API url</mat-label>
-        <input matInput placeholder="Copy past API url" #userInput>
+        <input matInput placeholder="Copy paste API url" #userInput>
       </mat-form-field>
 
       <button (click)="onSendRequest(userInput.value)" mat-stroked-button color="primary" style="margin-left: 10px">Send
@@ -18,24 +18,24 @@
       <!-- TODO: create separate component -->
       <tr *ngFor="let nftAsset of (response$ | async)?.data">
         <mat-card class="example-card">
-            <mat-card-header>
-                <!-- <div mat-card-avatar class="example-header-image"></div> -->
-                <mat-card-title>Name: {{nftAsset.name}} </mat-card-title>
-                <mat-card-subtitle>Asset id: {{nftAsset.id}}</mat-card-subtitle>
-                <mat-card-subtitle>Image Url: {{nftAsset.image_url}}</mat-card-subtitle>
-            </mat-card-header>
-    
-            <div>
-              <button>Render Image</button>
-            </div>
+          <mat-card-header>
+            <!-- <div mat-card-avatar class="example-header-image"></div> -->
+            <mat-card-title>Name: {{nftAsset.name}} </mat-card-title>
+            <mat-card-subtitle>Asset id: {{nftAsset.id}}</mat-card-subtitle>
+            <mat-card-subtitle>Image Url: {{nftAsset.image_url}}</mat-card-subtitle>
+          </mat-card-header>
 
+          <div>
+            <button>Render Image</button>
             <!-- <img mat-card-image [src]="nftAsset.image_url"> -->
-    
-            <mat-card-footer style="padding-left: 15px;">
-                <mat-card-subtitle>contract_address: {{nftAsset.contract_address}}</mat-card-subtitle>
-            </mat-card-footer>
+          </div>
+
+
+          <mat-card-footer style="padding-left: 15px;">
+            <mat-card-subtitle>contract_address: {{nftAsset.contract_address}}</mat-card-subtitle>
+          </mat-card-footer>
         </mat-card>
-    </tr>
+      </tr>
     </div>
 
     <div>
@@ -43,6 +43,34 @@
     </div>
   </mat-tab>
 
-  <mat-tab label="TODO Demo 1">
+  <mat-tab label="API Image Url">
+
+    <div>
+      <mat-form-field appearance="fill" floatLabel="auto">
+        <mat-label>Image Url Prefix</mat-label>
+        <input matInput #UrlPrefix>
+      </mat-form-field>
+
+    </div>
+    <div>
+
+      <mat-form-field appearance="fill" floatLabel="auto">
+        <mat-label>Media Path</mat-label>
+        <input matInput placeholder="Copy paste Media Path" #MediaPath>
+      </mat-form-field>
+
+      <button (click)="onGetMediaRequest(UrlPrefix.value,MediaPath.value)" mat-stroked-button color="primary"
+        style="margin-left: 10px">Send
+        Request</button>
+    </div>
+
+    <div>
+      <!-- <img mat-card-image [src]="imageUrl$"> -->
+      <img [src]="imageToShow" alt="Place image title">
+      <!-- <img [src]="imageToShow" alt="Place image title" *ngIf="!isImageLoading; else noImageFound"> -->
+      <!-- <ng-template #noImageFound>
+        <img src="fallbackImage.png" alt="Fallbackimage">
+      </ng-template> -->
+    </div>
   </mat-tab>
 </mat-tab-group>

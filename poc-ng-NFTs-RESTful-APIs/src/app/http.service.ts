@@ -15,4 +15,11 @@ export class HttpService {
     console.log("getRequest() url:" + url);
     return this.http.get<NftAssets>(url);
   }
+
+  getImage(url: string, mediaPath: string): Observable<any> {
+    console.log("getImage() url:" + url, + "mediaPath:" + mediaPath);
+    var fullUrl = url + mediaPath;
+    return this.http.get<any>(fullUrl,
+      { responseType: 'blob' as 'json'});
+  }
 }
