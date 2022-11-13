@@ -1,10 +1,41 @@
-<mat-tab-group dynamicHeight backgroundColor="primary" color="warn">
+<mat-tab-group dynamicHeight backgroundColor="primary" color="warn" style="padding: 10px">
   <mat-tab label="Home">
     <h1>Angular & NFT (blockchain) APIs Demos</h1>
 
     <!-- TODO: add About description -->
+
     <div>
-      <button mat-stroked-button color="primary">Check Demo 1</button>
+      <mat-form-field appearance="fill" floatLabel="auto">
+        <mat-label>API url</mat-label>
+        <input matInput placeholder="Copy past API url" #userInput>
+      </mat-form-field>
+
+      <button (click)="onSendRequest(userInput.value)" mat-stroked-button color="primary" style="margin-left: 10px">Send
+        Request</button>
+    </div>
+
+    <div>
+      <!-- TODO: create separate component -->
+      <tr *ngFor="let nftAsset of (response$ | async)?.data">
+        <mat-card class="example-card">
+            <mat-card-header>
+                <!-- <div mat-card-avatar class="example-header-image"></div> -->
+                <mat-card-title>Name: {{nftAsset.name}} </mat-card-title>
+                <mat-card-subtitle>Asset id: {{nftAsset.id}}</mat-card-subtitle>
+                <mat-card-subtitle>Image Url: {{nftAsset.image_url}}</mat-card-subtitle>
+            </mat-card-header>
+    
+            <div>
+              <button>Render Image</button>
+            </div>
+
+            <!-- <img mat-card-image [src]="nftAsset.image_url"> -->
+    
+            <mat-card-footer style="padding-left: 15px;">
+                <mat-card-subtitle>contract_address: {{nftAsset.contract_address}}</mat-card-subtitle>
+            </mat-card-footer>
+        </mat-card>
+    </tr>
     </div>
 
     <div>
@@ -13,8 +44,5 @@
   </mat-tab>
 
   <mat-tab label="TODO Demo 1">
-  </mat-tab>
-
-  <mat-tab label="TODO Demo 2">
   </mat-tab>
 </mat-tab-group>
