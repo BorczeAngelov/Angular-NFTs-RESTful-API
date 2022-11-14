@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable, ReplaySubject } from 'rxjs';
 import { HttpService } from '../http.service';
+import { ImageReader } from '../utils/image-reader';
 
 @Component({
   selector: 'app-nft-media',
@@ -13,9 +14,6 @@ export class NftMediaComponent implements OnInit {
   public urlPrefix = this.initialUrlPrefix;
   public tokenPath = this.initialTokenPath;
 
-
-  public imageUrl$!: Observable<any>
-  public isImageLoading: boolean = false;
   public imageToShow: any;
 
   constructor(private httpService: HttpService) { }
@@ -27,33 +25,13 @@ export class NftMediaComponent implements OnInit {
     console.log(this.urlPrefix);
     console.log(this.tokenPath);
 
-    // this.imageUrl$ = this.httpService.getImage(url, mediaPath);
-
-    this.isImageLoading = true;
     this.httpService.getImage(this.urlPrefix, this.tokenPath)
       .subscribe(data => {
-        console.log("OK");
-        console.log(data);
-        // this.image = data.arrayBuffer();
-        this.imageUrl$ = data.arrayBuffer();
-        this.createImageFromBlob(data);
-        this.isImageLoading = false;
+        ImageReader
+          .createImageFromBlob(data)
+          .subscribe(result => this.imageToShow = result) //todo?: remove eventHandler and dispose?
       }, error => {
-        this.isImageLoading = false;
-        console.log("NOK");
         console.log(error);
       });
-  }
-
-
-  createImageFromBlob(image: Blob) {
-    let reader = new FileReader();
-    reader.addEventListener("load", () => {
-      this.imageToShow = reader.result;
-    }, false);
-
-    if (image) {
-      reader.readAsDataURL(image);
-    }
   }
 }
