@@ -8,6 +8,11 @@ import { HttpService } from '../http.service';
   styleUrls: ['./nft-media.component.css']
 })
 export class NftMediaComponent implements OnInit {
+  private initialUrlPrefix = "https://svc.blockdaemon.com/nft/v1/ethereum/mainnet/media/";
+  private initialTokenPath = "token/0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D/5e1f4454-34ff-5118-9987-96b481625128.png";
+  public urlPrefix = this.initialUrlPrefix;
+  public tokenPath = this.initialTokenPath;
+
 
   public imageUrl$!: Observable<any>
   public isImageLoading: boolean = false;
@@ -18,14 +23,14 @@ export class NftMediaComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onGetMediaRequest(url: string, mediaPath: string) {
-    console.log(url);
-    console.log(mediaPath);
+  onGetMediaRequest() {
+    console.log(this.urlPrefix);
+    console.log(this.tokenPath);
 
     // this.imageUrl$ = this.httpService.getImage(url, mediaPath);
 
     this.isImageLoading = true;
-    this.httpService.getImage(url, mediaPath)
+    this.httpService.getImage(this.urlPrefix, this.tokenPath)
       .subscribe(data => {
         console.log("OK");
         console.log(data);

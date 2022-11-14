@@ -1,29 +1,27 @@
 <h1>Get and Render NFT Media</h1>
 
 <div>
-    <mat-form-field appearance="fill" floatLabel="auto">
-      <mat-label>Image Url Prefix</mat-label>
-      <input matInput #UrlPrefix>
+    <mat-form-field appearance="standard" floatLabel="auto" style="width: 80%;">
+        <mat-label>Image url prefix</mat-label>
+        <input matInput [value]="urlPrefix">
     </mat-form-field>
-
-  </div>
-  <div>
-
-    <mat-form-field appearance="fill" floatLabel="auto">
-      <mat-label>Media Path</mat-label>
-      <input matInput placeholder="Copy paste Media Path" #MediaPath>
+</div>
+<div>
+    <mat-form-field appearance="standard" floatLabel="auto" style="width: 80%;">
+        <mat-label>Token media path</mat-label>
+        <input matInput [value]="tokenPath">
     </mat-form-field>
+</div>
+<div>
+    <button (click)="onGetMediaRequest()" mat-stroked-button color="primary" style="margin-left: 10px">Send
+        Request</button>
+</div>
 
-    <button (click)="onGetMediaRequest(UrlPrefix.value,MediaPath.value)" mat-stroked-button color="primary"
-      style="margin-left: 10px">Send
-      Request</button>
-  </div>
-
-  <div>
+<div>
     <!-- <img mat-card-image [src]="imageUrl$"> -->
-    <img [src]="imageToShow" alt="Place image title">
+    <img [src]="imageToShow">
     <!-- <img [src]="imageToShow" alt="Place image title" *ngIf="!isImageLoading; else noImageFound"> -->
     <!-- <ng-template #noImageFound>
       <img src="fallbackImage.png" alt="Fallbackimage">
     </ng-template> -->
-  </div>
+</div>

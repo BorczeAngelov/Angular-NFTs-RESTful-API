@@ -2,35 +2,36 @@
 <!-- TODO: add About description -->
 
 <div>
-  <mat-form-field appearance="fill" floatLabel="auto">
-    <mat-label>API url</mat-label>
-    <input matInput placeholder="Copy paste API url" #userInput>
-  </mat-form-field>
+    <mat-form-field appearance="standard" floatLabel="auto" style="width: 80%;">
+        <mat-label>API url</mat-label>
+        <input matInput [value]="urlValue">
+    </mat-form-field>
 
-  <button (click)="onSendRequest(userInput.value)" mat-stroked-button color="primary" style="margin-left: 10px">Send
-    Request</button>
+    <button (click)="onSendRequest()" mat-stroked-button color="primary"
+        style="margin-left: 10px; width: 150px;">
+        Send Get Request</button>
 </div>
 
 <div>
-  <!-- TODO: create separate component -->
-  <tr *ngFor="let nftAsset of (response$ | async)?.data">
-    <mat-card class="example-card">
-      <mat-card-header>
-        <!-- <div mat-card-avatar class="example-header-image"></div> -->
-        <mat-card-title>Name: {{nftAsset.name}} </mat-card-title>
-        <mat-card-subtitle>Asset id: {{nftAsset.id}}</mat-card-subtitle>
-        <mat-card-subtitle>Image Url: {{nftAsset.image_url}}</mat-card-subtitle>
-      </mat-card-header>
+    <!-- TODO: create separate component -->
+    <tr *ngFor="let nftAsset of (response$ | async)?.data">
+        <mat-card class="example-card">
+            <mat-card-header>
+                <!-- <div mat-card-avatar class="example-header-image"></div> -->
+                <mat-card-title>Name: {{nftAsset.name}} </mat-card-title>
+                <mat-card-subtitle>Asset id: {{nftAsset.id}}</mat-card-subtitle>
+                <mat-card-subtitle>Image Url: {{nftAsset.image_url}}</mat-card-subtitle>
+            </mat-card-header>
 
-      <div>
-        <button>Render Image</button>
-        <!-- <img mat-card-image [src]="nftAsset.image_url"> -->
-      </div>
+            <div>
+                <button>Render Image</button>
+                <!-- <img mat-card-image [src]="nftAsset.image_url"> -->
+            </div>
 
 
-      <mat-card-footer style="padding-left: 15px;">
-        <mat-card-subtitle>contract_address: {{nftAsset.contract_address}}</mat-card-subtitle>
-      </mat-card-footer>
-    </mat-card>
-  </tr>
+            <mat-card-footer style="padding-left: 15px;">
+                <mat-card-subtitle>contract_address: {{nftAsset.contract_address}}</mat-card-subtitle>
+            </mat-card-footer>
+        </mat-card>
+    </tr>
 </div>
