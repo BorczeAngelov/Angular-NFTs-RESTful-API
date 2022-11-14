@@ -14,12 +14,14 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
 import { DynamicApiKeyComponent } from './dynamic-api-key/dynamic-api-key.component';
 import { BoredApeBoardComponent } from './bored-ape-board/bored-ape-board.component';
+import { NftMediaComponent } from './nft-media/nft-media.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DynamicApiKeyComponent,
     BoredApeBoardComponent,
+    NftMediaComponent,
   ],
   imports: [
     BrowserModule,
