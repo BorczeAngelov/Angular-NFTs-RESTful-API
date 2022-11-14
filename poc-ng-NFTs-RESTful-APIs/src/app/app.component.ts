@@ -9,21 +9,12 @@ import { HttpService } from './http.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'poc-ng-NFTs-RESTful-APIs';
-  public response$!: Observable<NftAssets>;
 
   public imageUrl$!: Observable<any>
   public isImageLoading: boolean = false;
   public imageToShow: any;
 
-  constructor(private httpService: HttpService) {
-
-  }
-
-
-  onSendRequest(url: string) {
-    this.response$ = this.httpService.getRequest(url);
-  }
+  constructor(private httpService: HttpService) {}
 
 
   onGetMediaRequest(url: string, mediaPath: string) {
