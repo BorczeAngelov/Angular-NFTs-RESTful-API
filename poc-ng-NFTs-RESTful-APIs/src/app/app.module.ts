@@ -8,13 +8,16 @@ import { AppComponent } from './app.component';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatButtonModule } from '@angular/material/button';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatInputModule } from '@angular/material/input';
+import { MatInputModule, } from '@angular/material/input';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
+import { DynamicApiKeyComponent } from './dynamic-api-key/dynamic-api-key.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    DynamicApiKeyComponent,
   ],
   imports: [
     BrowserModule,
@@ -22,6 +25,8 @@ import { MatCardModule } from '@angular/material/card';
     AppRoutingModule,
     HttpClientModule,
 
+    FormsModule,
+    ReactiveFormsModule,
     MatTabsModule,
     MatButtonModule,
     MatInputModule,
