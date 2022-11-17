@@ -7,7 +7,7 @@ import { NftAssets } from './data/dto/NftAssets';
   providedIn: 'root'
 })
 export class HttpService {
-  public apiKey = ''; //at the moment is set by user during runtime
+  public apiKey = ''; //todo: set value in config (at the moment is set by user during runtime)
 
   constructor(private http: HttpClient) { }
 

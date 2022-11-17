@@ -12,7 +12,7 @@ export class NftMediaComponent implements OnInit {
   private initialUrlPrefix = "https://svc.blockdaemon.com/nft/v1/ethereum/mainnet/media/";
   private initialTokenPath = "token/0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D/5e1f4454-34ff-5118-9987-96b481625128.png";
   public urlPrefix = this.initialUrlPrefix;
-  public tokenPath = this.initialTokenPath;
+  public tokenPath = this.initialTokenPath; //todo: bug: the binding is borken
 
   public imageToShow: any;
 
