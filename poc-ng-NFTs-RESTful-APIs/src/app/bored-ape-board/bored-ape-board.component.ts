@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
-import { NftAssets } from '../data/dto/NftAssets';
 import { NftAssetWithMedia } from '../data/NftAssetWithMedia';
 import { HttpService } from '../http.service';
 import { NftMediaService } from '../nft-media/nft-media.service';
@@ -24,6 +23,7 @@ export class BoredApeBoardComponent implements OnInit {
 
   onSendRequest() {
     // this.response$ = this.httpService.getRequest(this.urlValue);
+    console.log("onSendRequest()" + this.urlValue);
     this.response$ = this.nftMediaService.getAssetsWithMedia(this.initialUrl, this.queryParameter);
   }
 }

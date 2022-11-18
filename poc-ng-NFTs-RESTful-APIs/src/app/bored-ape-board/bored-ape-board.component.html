@@ -4,7 +4,7 @@
 <div>
     <mat-form-field appearance="standard" floatLabel="auto" style="width: 80%;">
         <mat-label>API url</mat-label>
-        <input matInput [value]="urlValue">
+        <input matInput [(ngModel)]="urlValue">
     </mat-form-field>
 
     <button (click)="onSendRequest()" mat-stroked-button color="primary"
