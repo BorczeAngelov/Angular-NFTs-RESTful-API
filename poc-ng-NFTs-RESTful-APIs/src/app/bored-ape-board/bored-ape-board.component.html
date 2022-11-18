@@ -1,12 +1,19 @@
 <h1>Playground Board: Bored Ape Yacht Club</h1>
 <!-- TODO: add About description -->
+<div>
+    <mat-form-field appearance="standard" floatLabel="auto" style="width: 80%;">
+        <mat-label>API URL</mat-label>
+        <input matInput [(ngModel)]="urlValue">
+    </mat-form-field>
+</div>
 
 <div>
     <mat-form-field appearance="standard" floatLabel="auto" style="width: 80%;">
-        <mat-label>API url</mat-label>
-        <input matInput [(ngModel)]="urlValue">
+        <mat-label>Collection name parameter (Works also with CryptoPunks, &#38;page_size=3 etc.)</mat-label>
+        <input matInput [(ngModel)]="queryParameter">
     </mat-form-field>
-
+</div>
+<div>    
     <button (click)="onSendRequest()" mat-stroked-button color="primary"
         style="margin-left: 10px; width: 150px;">
         Send Get Request</button>
@@ -15,7 +22,7 @@
 <div>
     <!-- TODO: create separate component -->
     <tr *ngFor="let item of (response$ | async)">
-        <mat-card>
+        <mat-card style="max-width: 1200px;">
             <mat-card-header>
                 <!-- <div mat-card-avatar class="example-header-image"></div> -->
                 <mat-card-title>Name: {{item.nftAsset.name}} </mat-card-title>
