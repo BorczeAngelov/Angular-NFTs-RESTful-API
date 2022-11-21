@@ -1,167 +1,662 @@
-{
-    "CryptoPunks": "0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB",
-    "Bored Ape Yacht Club": "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D",
-    "Mutant Ape Yacht Club": "0x60E4d786628Fea6478F785A6d7e704777c86a7c6",
-    "The Dooplicator": "0x466cfcd0525189b573e794f554b8a751279213ac",
-    "Azuki": "0xED5AF388653567Af2F388E6224dC7C4b3241C544",
-    "Meebits": "0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7",
-    "Doodles": "0x8a90CAb2b38dba80c64b7734e58Ee1dB38B8992e",
-    "Cool Cats": "0x1A92f7381B9F03921564a437210bB9396471050C",
-    "Bored Ape Kennel Club": "0xba30E5F9Bb24caa003E9f2f0497Ad287FDF95623",
-    "Decentraland Wearables": "0xD35147BE6401dcb20811f2104c33dE8E97ED6818",
-    "Parallel Alpha": "0x76BE3b62873462d2142405439777e971754E8E77",
-    "CrypToadz by GREMPLIN": "0x1CB1A5e65610AEFF2551A50f76a87a7d3fB649C6",
-    "World of Women": "0xe785E82358879F061BC3dcAC6f0444462D4b5330",
-    "CyberKongz": "0x57a204AA1042f6E66DD7730813f4024114d74f37",
-    "0N1_Force": "0x3bf2922f4520a8ba0c2efc3d2a1539678dad5e9d",
-    "10KTF": "0x0Cfb5d82BE2b949e8fa73A656dF91821E2aD99FD",
-    "3Landers": "0xb4d06d46A8285F4EC79Fd294F78a881799d8cEd9",
-    "888 Genesis": "0x36d30B3b85255473D27dd0F7fD8F35e36a9d6F06",
-    "ALPACADABRAZ": "0x3DB5463A9e2d04334192C6f2DD4B72DeF4751A61",
-    "ASM AIFA Genesis": "0x26437d312fB36BdD7AC9F322A6D4cCFe0c4FA313",
-    "Acclimated_MoonCats": "0xc3f733ca98e0dad0386979eb96fb1722a1a05e69",
-    "Adam_bomb": "0x7ab2352b1d2e185560494d5e577f9d3c238b78c5",
-    "Akuma Origins": "0xFA7E3F898c80E31A3aedeAe8b0C713a3F9666264",
-    "Akutar Mint Pass": "0x94B6f3978B0A32f7Fa0B15243E86af1aEc23Deb5",
-    "Akutars": "0xaaD35C2DadbE77f97301617D82e661776c891Fa9",
-    "Alien frens": "0x123b30E25973FeCd8354dd5f41Cc45A3065eF88C",
-    "Animetas": "0x18Df6C571F6fE9283B87f910E41dc5c8b77b7da5",
-    "Anonymice": "0xbad6186E92002E312078b5a1dAfd5ddf63d3f731",
-    "Antonym: Genesis": "0x7e3Ef31186D1BEc0D3f35aD701D065743B84C790",
-    "Ape Kids Club (AKC)": "0x9Bf252f97891b907F002F2887EfF9246e3054080",
-    "Arcade Land": "0x4a8C9D751EEAbc5521A68FB080DD7E72E46462aF",
-    "BFF Friendship Bracelets": "0x72D47d4d24018eC9048a9b0ae226F1C525B7E794",
-    "Baby Doge Army": "0xd9F092BdF2b6eaF303fc09cc952e94253AE32fae",
-    "Beanz": "0x306b1ea3ecdf94aB739F1910bbda052Ed4A9f949",
-    "Blitmap": "0x8d04a8c79cEB0889Bdd12acdF3Fa9D207eD3Ff63",
-    "Bloot (not for Weaks)": "0x4F8730E0b32B04beaa5757e5aea3aeF970E5B613",
-    "Bored Ape Chemistry Club": "0x22c36BfdCef207F9c0CC941936eff94D4246d14A",
-    "Boss Beauties": "0xB5C747561a185A146f83cFff25BdfD2455b31fF4",
-    "C-01 Official Collection": "0x6FD053BfF10512d743Fa36C859e49351a4920df6",
-    "Capsule House": "0xfcB1315C4273954F74Cb16D5b663DBF479EEC62e",
-    "CatBlox Genesis Collection": "0x86C35FA9665002C08801805280fF6a077B23c98A",
-    "Cats and Watches": "0xd06cF9e1189FEAb09c844C597abc3767BC12608c",
-    "Chain Runners": "0x97597002980134beA46250Aa0510C9B90d87A587",
-    "Champions Ascension": "0x13d15d8B7B2bF48CBAF144c5C50E67b6B635b5cd",
-    "Chimerapillars": "0x6f3B255eFA6b2d4133c4F208E98E330e8CaF86f3",
-    "Chimpers": "0x80336Ad7A747236ef41F47ed2C7641828a480BAA",
-    "Cool Pets": "0x86c10d10eca1fca9daf87a279abccabe0063f247",
-    "CoolmansUniverse": "0xa5c0bd78d1667c13bfb403e2a3336871396713c5",
-    "Cosmodinos Omegas": "0x2c4929295042Cb95aB1900d323d634EE8Def3c7a",
-    "Creepz Genesis": "0xfE8C6d19365453D26af321D0e8c910428c23873F",
-    "Creepz Shapeshifterz": "0xF1083e064F92db0561fd540F982Cbf73A4e2F8f6",
-    "Crypto Bull Society": "0x469823c7B84264D1BAfBcD6010e9cdf1cac305a3",
-    "Crypto Coven": "0x5180db8F5c931aaE63c74266b211F580155ecac8",
-    "CryptoBatz by Ozzy Osbourne": "0xc8adfb4d437357d0a656d4e62fd9a6d22e401aa0",
-    "CryptoMories": "0x1a2F71468F656E97c2F86541E57189F59951efe7",
-    "CryptoSkulls": "0xc1caf0c19a8ac28c41fe59ba6c754e4b9bd54de9",
-    "Cryptovoxels": "0x79986aF15539de2db9A5086382daEdA917A9CF0C",
-    "CyberBrokers": "0x892848074ddeA461A15f337250Da3ce55580CA85",
-    "CyberKongz VX": "0x7EA3Cca10668B8346aeC0bf1844A49e995527c8B",
-    "DEGEN TOONZ COLLECTION": "0x19b86299c21505cdf59cE63740B240A9C822b5E4",
-    "Damien Hirst": "0xaaDc2D4261199ce24A4B0a57370c4FCf43BB60aa",
-    "Desperate Apewives": "0xF1268733C6FB05EF6bE9cF23d24436Dcd6E0B35E",
-    "Dippies": "0x82F5eF9dDC3D231962Ba57A9c2eBb307Dc8d26c2",
-    "DourDarcels": "0x8d609Bd201bEaea7DccbfbD9c22851e23Da68691",
-    "Edenhorde": "0x9eEAeCBE2884AA7e82f450E3Fc174F30Fc2a8de3",
-    "Emblem Vault": "0x82C7a8f707110f5FBb16184A5933E9F78a34c6ab",
-    "FLUF World": "0xCcc441ac31f02cD96C153DB6fd5Fe0a2F4e6A68d",
-    "First Peoples": "0x495f947276749Ce646f68AC8c248420045cb7b5e",
-    "FishyFam": "0x63FA29Fec10C997851CCd2466Dad20E51B17C8aF",
-    "Flyfish Club": "0xc9D8F15803c645e98B17710a0b6593F097064bEF",
-    "Forgotten Runes wizard cult": "0x521f9C7505005CFA19A8E5786a9c3c9c9F5e6f42",
-    "GEN.ART Membership": "0x1Ca39c7F0F65B4Da24b094A9afac7aCf626B7f38",
-    "GENTLEMEN": "0xBc719D5aB806aeA1BFEc34F30394f99f6da57209",
-    "GYM RAT ELEPHANTS MAIN FORCE": "0xCAa3489d1011FF6245720e33cDd334611F27c281",
-    "Galactic Apes": "0x12d2d1bed91c24f878f37e66bd829ce7197e4d14",
-    "GalaxyEggs": "0xa08126f5e1ed91a635987071e6ff5eb2aeb67c48",
-    "Gh0stly Gh0sts": "0xA74aE2c6FCa0CEdbAef30A8CEEF834B247186bcF",
-    "Goblintown": "0xbCe3781ae7Ca1a5e050Bd9C4c77369867eBc307e",
-    "Gutter Cats": "0xedb61f74b0d09b2558f1eeb79b247c1f363ae452",
-    "Hape_prime": "0x4Db1f25D3d98600140dfc18dEb7515Be5Bd293Af",
-    "Hero": "0x966731dfd9b9925dd105ff465687f5aa8f54ee9f",
-    "HypeBears": "0x14e0a1f310e2b7e321c91f58847e98b8c802f6ef",
-    "IO: Imaginary ones": "0x716F29B8972D551294d9E02B3eb0fC1107FbF4aA",
-    "Jungle Freaks Genesis": "0x7E6Bc952d4b4bD814853301bEe48E99891424de0",
-    "JustCubesNFT": "0x07ce5D64B7b845C8ff645E9A3825f94e6BDd82F1",
-    "Killer GF": "0x6bE69b2A9B153737887CfcdCa7781eD1511C7e36",
-    "Koala Intelligence Agency": "0x3f5FB35468e9834A43dcA1C160c69EaAE78b6360",
-    "Lazy Cubs Official": "0xE6A9826E3B6638d01dE95B55690bd4EE7EfF9441",
-    "Lil Heroes": "0xD78b76Fcc33cd416dA9d3D42f72649a23D7AC647",
-    "Lives of Asuna": "0xAf615B61448691fC3E4c61AE4F015d6e77b6CCa8",
-    "Llamaverse Genesis": "0x9df8Aa7C681f33E442A0d57B838555da863504f3",
-    "Loot": "0xFF9C1b15B16263C61d017ee9F65C50e4AE0113D7",
-    "Loser Club Official": "0x709d30f1f60F03D85A0EF33142eF3259392dC9e1",
-    "LostPoets": "0x4b3406a41399c7FD2BA65cbC93697Ad9E7eA61e5",
-    "MFER": "0x79fcdef22feed20eddacbb2587640e45491b757f",
-    "MekaVerse": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f",
-    "MetaHero": "0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2",
-    "Metroverse Genesis": "0x0e9d6552b85BE180d941f1cA73Ae3E318D2D4F1F",
-    "Milady Maker": "0x5Af0D9827E0c53E4799BB226655A1de152A425a5",
-    "Moon Cats": "0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69",
-    "Moonbirds": "0x23581767a106ae21c074b2276D25e5C3e136a68b",
-    "Murakami.Flowers Official": "0x7D8820FA92EB1584636f4F5b8515B5476B75171a",
-    "Muri by Haus": "0x4B61413D4392c806E6d0fF5Ee91E6073C21d6430",
-    "Mutant Cats": "0xaAdBA140Ae5e4c8a9eF0Cc86EA3124b446e3E46A",
-    "My Curio Cards": "0x73DA73EF3a6982109c4d5BDb0dB9dd3E3783f313",
-    "My Pet Hooligan": "0x09233d553058c2F42ba751C87816a8E9FaE7Ef10",
-    "NFT Bored Bunny": "0x9372b371196751dd2F603729Ae8D8014BbeB07f6",
-    "NFT Worlds": "0xBD4455dA5929D5639EE098ABFaa3241e9ae111Af",
-    "Neo Tokyo: Identities": "0x86357A19E5537A8Fba9A004E555713BC943a66C0",
-    "Neo Tokyo: Outer Identities": "0x698fbaaca64944376e2cdc4cad86eaa91362cf54",
-    "NotBanksyEchoes": "0x925f7eB0Fe634702049a1344119D4046965B5C8c",
-    "Official Curiosities": "0xA4A6848B22B2ff45D32e88A02C5aD2EeABD6763f",
-    "PEACEFUL GROUPIES": "0x4f89Cd0CAE1e54D98db6a80150a824a533502EEa",
-    "PUNKS Comic": "0x128675d4FddbC4a0D3f8aA777D8EE0fb8B427C2F",
-    "Phanta Bears": "0x67D9417C9C3c250f61A83C7e8658daC487B56B09",
-    "Pixel Vault MintPass": "0x33CfAe13A9486C29Cd3B11391cC7ECa53822e8c7",
-    "Probably Nothing Genesis": "0xB9aEcB63908c13b6167aD2eab9bAcD7e0DaBa78A",
-    "Project Nanopass": "0xf54cC94f1F2f5De012B6Aa51F1E7eBdc43Ef5afC",
-    "Pudgy_penguins": "0xbd3531da5cf5857e7cfaa92426877b022e612cf8",
-    "Quacky Ducks Official": "0x519272821dddb3Afc7aCcD1823B674d30946185E",
-    "Queen Apes": "0x1417404D0d92f9D21B046AFbaa9D1C4E17c4c723",
-    "RTFKT - MNLTH": "0x86825dfca7a6224cfbd2da48e85df2fc3aa7c4b1",
-    "Raidparty Fighters": "0x87E738a3d5E5345d6212D8982205A564289e6324",
-    "Roboto Helmeto": "0x099689220846644F87D1137665CDED7BF3422747",
-    "Rumble Kong League": "0xEf0182dc0574cd5874494a120750FD222FdB909a",
-    "SUPERPLASTIC:Cryptojankyz": "0x066f2D5ead7951F0d0038C19AffD500B9F02c0e5",
-    "Sappy Seals": "0x364C828eE171616a39897688A831c2499aD972ec",
-    "Shindo-NFT": "0x527aED8533A596a7ed939b7CEA5D14D8C056f82D",
-    "ShinseiGalverse": "0x582048C4077a34E7c3799962F1F8C5342a3F4b12",
-    "Shinsekaicorp": "0x98b82D9eFC577B1c3AA6578342121231db2B47b9",
-    "SlimHoods": "0x2931B181Ae9Dc8F8109eC41C42480933F411ef94",
-    "Smilesss": "0x177EF8787CEb5D4596b6f011df08C86eb84380dC",
-    "Sneaky_Vampire_Syndicate": "0x219b8ab790decc32444a6600971c7c3718252539",
-    "Somnium Space VR": "0x913ae503153d9A335398D0785Ba60A2d63dDB4e2",
-    "SupDucks": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5",
-    "SuperNormalbyZipcy": "0xd532b88607b1877fe20c181cba2550e3bbd6b31c",
-    "THE SHIBOSHIS": "0x11450058d796B02EB53e65374be59cFf65d3FE7f",
-    "Takashi": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b",
-    "TapeHeads": "0xB5A86100F01883B9c9cf4CcC42daB9f56E21fb76",
-    "Tasty Bones XYZ": "0x1b79c7832ed9358E024F9e46E9c8b6f56633691B",
-    "The CryptoDads": "0xECDD2F733bD20E56865750eBcE33f17Da0bEE461",
-    "The Heart Project": "0xce50f3cA1F1Dbd6Fa042666bC0e369565dda457D",
-    "The Sandbox ASSETS": "0xa342f5D851E866E18ff98F351f2c6637f4478dB5",
-    "The Sevens - Genesis": "0xf497253C2bB7644ebb99e4d9ECC104aE7a79187A",
-    "The Uncanny Country Club": "0xF4Eac65bbC94E3bE2E3674992c31781032a6d793",
-    "The Wicked Craniums": "0x85f740958906b317de6ed79663012859067E745B",
-    "The n project": "0x05a46f1E545526FB803FF974C790aCeA34D1f2D6",
-    "TheCurrency": "0xaadc2d4261199ce24a4b0a57370c4fcf43bb60aa",
-    "TrapMonkie": "0xfa4020b0064aACdbb0ed8BEcac28C0C95bB29840",
-    "Treeverse Plots": "0x1B829B926a14634d36625e60165c0770C09D02b2",
-    "Tubby_cats": "0xca7ca7bcc765f77339be2d648ba53ce9c8a262bd",
-    "VOX Collectibles Mirandus": "0xf76179bb0924BA7da8E7b7Fc2779495D7A7939d8",
-    "VOX Series 1": "0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c",
-    "VeeFriends Series 2": "0x9378368ba6b85c1FbA5b131b530f5F5bEdf21A18",
-    "VeeFriends": "0xa3AEe8BcE55BEeA1951EF834b99f3Ac60d1ABeeB",
-    "Wassies by Wassies": "0x1D20A51F088492A0f1C57f047A9e30c9aB5C07Ea",
-    "Winter Bears": "0xC8BcbE0E8ae36D8f9238cd320ef6dE88784B1734",
-    "Wizards and dragons game(wnd)": "0x999e88075692bCeE3dBC07e7E64cD32f39A1D3ab",
-    "Wolf Game Legacy": "0xEB834ae72B30866af20a6ce5440Fa598BfAd3a42",
-    "Wolf Game": "0x7F36182DeE28c45dE6072a34D29855BaE76DBe2f",
-    "Worldwide Webb Land": "0xA1D4657e0E6507D5a94d06DA93E94dC7C8c44b51",
-    "Wrapped Cryptopunks": "0xb7F7F6C52F2e2fdb1963Eab30438024864c313F6",
-    "X Rabbits Club": "0x534D37C630b7e4d2A6C1E064F3a2632739e9EE04",
-    "ZombieClub Token": "0x9c80777CAe192E5031c38A0d951C55730eCC3f5e",
-    "hausphases by Haus": "0x5be99338289909d6dbBC57bb791140Ef85cCbCAB"
-}
+[
+    {
+      "name": "CryptoPunks",
+      "contract_address": "0xb47e3cd837dDF8e4c57F05d70Ab865de6e193BBB"
+    },
+    {
+      "name": "Bored Ape Yacht Club",
+      "contract_address": "0xBC4CA0EdA7647A8aB7C2061c2E118A18a936f13D"
+    },
+    {
+      "name": "Mutant Ape Yacht Club",
+      "contract_address": "0x60E4d786628Fea6478F785A6d7e704777c86a7c6"
+    },
+    {
+      "name": "The Dooplicator",
+      "contract_address": "0x466cfcd0525189b573e794f554b8a751279213ac"
+    },
+    {
+      "name": "Azuki",
+      "contract_address": "0xED5AF388653567Af2F388E6224dC7C4b3241C544"
+    },
+    {
+      "name": "Meebits",
+      "contract_address": "0x7bd29408f11d2bfc23c34f18275bbf23bb716bc7"
+    },
+    {
+      "name": "Doodles",
+      "contract_address": "0x8a90CAb2b38dba80c64b7734e58Ee1dB38B8992e"
+    },
+    {
+      "name": "Cool Cats",
+      "contract_address": "0x1A92f7381B9F03921564a437210bB9396471050C"
+    },
+    {
+      "name": "Bored Ape Kennel Club",
+      "contract_address": "0xba30E5F9Bb24caa003E9f2f0497Ad287FDF95623"
+    },
+    {
+      "name": "Decentraland Wearables",
+      "contract_address": "0xD35147BE6401dcb20811f2104c33dE8E97ED6818"
+    },
+    {
+      "name": "Parallel Alpha",
+      "contract_address": "0x76BE3b62873462d2142405439777e971754E8E77"
+    },
+    {
+      "name": "CrypToadz by GREMPLIN",
+      "contract_address": "0x1CB1A5e65610AEFF2551A50f76a87a7d3fB649C6"
+    },
+    {
+      "name": "World of Women",
+      "contract_address": "0xe785E82358879F061BC3dcAC6f0444462D4b5330"
+    },
+    {
+      "name": "CyberKongz",
+      "contract_address": "0x57a204AA1042f6E66DD7730813f4024114d74f37"
+    },
+    {
+      "name": "0N1_Force",
+      "contract_address": "0x3bf2922f4520a8ba0c2efc3d2a1539678dad5e9d"
+    },
+    {
+      "name": "10KTF",
+      "contract_address": "0x0Cfb5d82BE2b949e8fa73A656dF91821E2aD99FD"
+    },
+    {
+      "name": "3Landers",
+      "contract_address": "0xb4d06d46A8285F4EC79Fd294F78a881799d8cEd9"
+    },
+    {
+      "name": "888 Genesis",
+      "contract_address": "0x36d30B3b85255473D27dd0F7fD8F35e36a9d6F06"
+    },
+    {
+      "name": "ALPACADABRAZ",
+      "contract_address": "0x3DB5463A9e2d04334192C6f2DD4B72DeF4751A61"
+    },
+    {
+      "name": "ASM AIFA Genesis",
+      "contract_address": "0x26437d312fB36BdD7AC9F322A6D4cCFe0c4FA313"
+    },
+    {
+      "name": "Acclimated_MoonCats",
+      "contract_address": "0xc3f733ca98e0dad0386979eb96fb1722a1a05e69"
+    },
+    {
+      "name": "Adam_bomb",
+      "contract_address": "0x7ab2352b1d2e185560494d5e577f9d3c238b78c5"
+    },
+    {
+      "name": "Akuma Origins",
+      "contract_address": "0xFA7E3F898c80E31A3aedeAe8b0C713a3F9666264"
+    },
+    {
+      "name": "Akutar Mint Pass",
+      "contract_address": "0x94B6f3978B0A32f7Fa0B15243E86af1aEc23Deb5"
+    },
+    {
+      "name": "Akutars",
+      "contract_address": "0xaaD35C2DadbE77f97301617D82e661776c891Fa9"
+    },
+    {
+      "name": "Alien frens",
+      "contract_address": "0x123b30E25973FeCd8354dd5f41Cc45A3065eF88C"
+    },
+    {
+      "name": "Animetas",
+      "contract_address": "0x18Df6C571F6fE9283B87f910E41dc5c8b77b7da5"
+    },
+    {
+      "name": "Anonymice",
+      "contract_address": "0xbad6186E92002E312078b5a1dAfd5ddf63d3f731"
+    },
+    {
+      "name": "Antonym: Genesis",
+      "contract_address": "0x7e3Ef31186D1BEc0D3f35aD701D065743B84C790"
+    },
+    {
+      "name": "Ape Kids Club (AKC)",
+      "contract_address": "0x9Bf252f97891b907F002F2887EfF9246e3054080"
+    },
+    {
+      "name": "Arcade Land",
+      "contract_address": "0x4a8C9D751EEAbc5521A68FB080DD7E72E46462aF"
+    },
+    {
+      "name": "BFF Friendship Bracelets",
+      "contract_address": "0x72D47d4d24018eC9048a9b0ae226F1C525B7E794"
+    },
+    {
+      "name": "Baby Doge Army",
+      "contract_address": "0xd9F092BdF2b6eaF303fc09cc952e94253AE32fae"
+    },
+    {
+      "name": "Beanz",
+      "contract_address": "0x306b1ea3ecdf94aB739F1910bbda052Ed4A9f949"
+    },
+    {
+      "name": "Blitmap",
+      "contract_address": "0x8d04a8c79cEB0889Bdd12acdF3Fa9D207eD3Ff63"
+    },
+    {
+      "name": "Bloot (not for Weaks)",
+      "contract_address": "0x4F8730E0b32B04beaa5757e5aea3aeF970E5B613"
+    },
+    {
+      "name": "Bored Ape Chemistry Club",
+      "contract_address": "0x22c36BfdCef207F9c0CC941936eff94D4246d14A"
+    },
+    {
+      "name": "Boss Beauties",
+      "contract_address": "0xB5C747561a185A146f83cFff25BdfD2455b31fF4"
+    },
+    {
+      "name": "C-01 Official Collection",
+      "contract_address": "0x6FD053BfF10512d743Fa36C859e49351a4920df6"
+    },
+    {
+      "name": "Capsule House",
+      "contract_address": "0xfcB1315C4273954F74Cb16D5b663DBF479EEC62e"
+    },
+    {
+      "name": "CatBlox Genesis Collection",
+      "contract_address": "0x86C35FA9665002C08801805280fF6a077B23c98A"
+    },
+    {
+      "name": "Cats and Watches",
+      "contract_address": "0xd06cF9e1189FEAb09c844C597abc3767BC12608c"
+    },
+    {
+      "name": "Chain Runners",
+      "contract_address": "0x97597002980134beA46250Aa0510C9B90d87A587"
+    },
+    {
+      "name": "Champions Ascension",
+      "contract_address": "0x13d15d8B7B2bF48CBAF144c5C50E67b6B635b5cd"
+    },
+    {
+      "name": "Chimerapillars",
+      "contract_address": "0x6f3B255eFA6b2d4133c4F208E98E330e8CaF86f3"
+    },
+    {
+      "name": "Chimpers",
+      "contract_address": "0x80336Ad7A747236ef41F47ed2C7641828a480BAA"
+    },
+    {
+      "name": "Cool Pets",
+      "contract_address": "0x86c10d10eca1fca9daf87a279abccabe0063f247"
+    },
+    {
+      "name": "CoolmansUniverse",
+      "contract_address": "0xa5c0bd78d1667c13bfb403e2a3336871396713c5"
+    },
+    {
+      "name": "Cosmodinos Omegas",
+      "contract_address": "0x2c4929295042Cb95aB1900d323d634EE8Def3c7a"
+    },
+    {
+      "name": "Creepz Genesis",
+      "contract_address": "0xfE8C6d19365453D26af321D0e8c910428c23873F"
+    },
+    {
+      "name": "Creepz Shapeshifterz",
+      "contract_address": "0xF1083e064F92db0561fd540F982Cbf73A4e2F8f6"
+    },
+    {
+      "name": "Crypto Bull Society",
+      "contract_address": "0x469823c7B84264D1BAfBcD6010e9cdf1cac305a3"
+    },
+    {
+      "name": "Crypto Coven",
+      "contract_address": "0x5180db8F5c931aaE63c74266b211F580155ecac8"
+    },
+    {
+      "name": "CryptoBatz by Ozzy Osbourne",
+      "contract_address": "0xc8adfb4d437357d0a656d4e62fd9a6d22e401aa0"
+    },
+    {
+      "name": "CryptoMories",
+      "contract_address": "0x1a2F71468F656E97c2F86541E57189F59951efe7"
+    },
+    {
+      "name": "CryptoSkulls",
+      "contract_address": "0xc1caf0c19a8ac28c41fe59ba6c754e4b9bd54de9"
+    },
+    {
+      "name": "Cryptovoxels",
+      "contract_address": "0x79986aF15539de2db9A5086382daEdA917A9CF0C"
+    },
+    {
+      "name": "CyberBrokers",
+      "contract_address": "0x892848074ddeA461A15f337250Da3ce55580CA85"
+    },
+    {
+      "name": "CyberKongz VX",
+      "contract_address": "0x7EA3Cca10668B8346aeC0bf1844A49e995527c8B"
+    },
+    {
+      "name": "DEGEN TOONZ COLLECTION",
+      "contract_address": "0x19b86299c21505cdf59cE63740B240A9C822b5E4"
+    },
+    {
+      "name": "Damien Hirst",
+      "contract_address": "0xaaDc2D4261199ce24A4B0a57370c4FCf43BB60aa"
+    },
+    {
+      "name": "Desperate Apewives",
+      "contract_address": "0xF1268733C6FB05EF6bE9cF23d24436Dcd6E0B35E"
+    },
+    {
+      "name": "Dippies",
+      "contract_address": "0x82F5eF9dDC3D231962Ba57A9c2eBb307Dc8d26c2"
+    },
+    {
+      "name": "DourDarcels",
+      "contract_address": "0x8d609Bd201bEaea7DccbfbD9c22851e23Da68691"
+    },
+    {
+      "name": "Edenhorde",
+      "contract_address": "0x9eEAeCBE2884AA7e82f450E3Fc174F30Fc2a8de3"
+    },
+    {
+      "name": "Emblem Vault",
+      "contract_address": "0x82C7a8f707110f5FBb16184A5933E9F78a34c6ab"
+    },
+    {
+      "name": "FLUF World",
+      "contract_address": "0xCcc441ac31f02cD96C153DB6fd5Fe0a2F4e6A68d"
+    },
+    {
+      "name": "First Peoples",
+      "contract_address": "0x495f947276749Ce646f68AC8c248420045cb7b5e"
+    },
+    {
+      "name": "FishyFam",
+      "contract_address": "0x63FA29Fec10C997851CCd2466Dad20E51B17C8aF"
+    },
+    {
+      "name": "Flyfish Club",
+      "contract_address": "0xc9D8F15803c645e98B17710a0b6593F097064bEF"
+    },
+    {
+      "name": "Forgotten Runes wizard cult",
+      "contract_address": "0x521f9C7505005CFA19A8E5786a9c3c9c9F5e6f42"
+    },
+    {
+      "name": "GEN.ART Membership",
+      "contract_address": "0x1Ca39c7F0F65B4Da24b094A9afac7aCf626B7f38"
+    },
+    {
+      "name": "GENTLEMEN",
+      "contract_address": "0xBc719D5aB806aeA1BFEc34F30394f99f6da57209"
+    },
+    {
+      "name": "GYM RAT ELEPHANTS MAIN FORCE",
+      "contract_address": "0xCAa3489d1011FF6245720e33cDd334611F27c281"
+    },
+    {
+      "name": "Galactic Apes",
+      "contract_address": "0x12d2d1bed91c24f878f37e66bd829ce7197e4d14"
+    },
+    {
+      "name": "GalaxyEggs",
+      "contract_address": "0xa08126f5e1ed91a635987071e6ff5eb2aeb67c48"
+    },
+    {
+      "name": "Gh0stly Gh0sts",
+      "contract_address": "0xA74aE2c6FCa0CEdbAef30A8CEEF834B247186bcF"
+    },
+    {
+      "name": "Goblintown",
+      "contract_address": "0xbCe3781ae7Ca1a5e050Bd9C4c77369867eBc307e"
+    },
+    {
+      "name": "Gutter Cats",
+      "contract_address": "0xedb61f74b0d09b2558f1eeb79b247c1f363ae452"
+    },
+    {
+      "name": "Hape_prime",
+      "contract_address": "0x4Db1f25D3d98600140dfc18dEb7515Be5Bd293Af"
+    },
+    {
+      "name": "Hero",
+      "contract_address": "0x966731dfd9b9925dd105ff465687f5aa8f54ee9f"
+    },
+    {
+      "name": "HypeBears",
+      "contract_address": "0x14e0a1f310e2b7e321c91f58847e98b8c802f6ef"
+    },
+    {
+      "name": "IO: Imaginary ones",
+      "contract_address": "0x716F29B8972D551294d9E02B3eb0fC1107FbF4aA"
+    },
+    {
+      "name": "Jungle Freaks Genesis",
+      "contract_address": "0x7E6Bc952d4b4bD814853301bEe48E99891424de0"
+    },
+    {
+      "name": "JustCubesNFT",
+      "contract_address": "0x07ce5D64B7b845C8ff645E9A3825f94e6BDd82F1"
+    },
+    {
+      "name": "Killer GF",
+      "contract_address": "0x6bE69b2A9B153737887CfcdCa7781eD1511C7e36"
+    },
+    {
+      "name": "Koala Intelligence Agency",
+      "contract_address": "0x3f5FB35468e9834A43dcA1C160c69EaAE78b6360"
+    },
+    {
+      "name": "Lazy Cubs Official",
+      "contract_address": "0xE6A9826E3B6638d01dE95B55690bd4EE7EfF9441"
+    },
+    {
+      "name": "Lil Heroes",
+      "contract_address": "0xD78b76Fcc33cd416dA9d3D42f72649a23D7AC647"
+    },
+    {
+      "name": "Lives of Asuna",
+      "contract_address": "0xAf615B61448691fC3E4c61AE4F015d6e77b6CCa8"
+    },
+    {
+      "name": "Llamaverse Genesis",
+      "contract_address": "0x9df8Aa7C681f33E442A0d57B838555da863504f3"
+    },
+    {
+      "name": "Loot",
+      "contract_address": "0xFF9C1b15B16263C61d017ee9F65C50e4AE0113D7"
+    },
+    {
+      "name": "Loser Club Official",
+      "contract_address": "0x709d30f1f60F03D85A0EF33142eF3259392dC9e1"
+    },
+    {
+      "name": "LostPoets",
+      "contract_address": "0x4b3406a41399c7FD2BA65cbC93697Ad9E7eA61e5"
+    },
+    {
+      "name": "MFER",
+      "contract_address": "0x79fcdef22feed20eddacbb2587640e45491b757f"
+    },
+    {
+      "name": "MekaVerse",
+      "contract_address": "0x9a534628b4062e123ce7ee2222ec20b86e16ca8f"
+    },
+    {
+      "name": "MetaHero",
+      "contract_address": "0x6dc6001535e15b9def7b0f6a20a2111dfa9454e2"
+    },
+    {
+      "name": "Metroverse Genesis",
+      "contract_address": "0x0e9d6552b85BE180d941f1cA73Ae3E318D2D4F1F"
+    },
+    {
+      "name": "Milady Maker",
+      "contract_address": "0x5Af0D9827E0c53E4799BB226655A1de152A425a5"
+    },
+    {
+      "name": "Moon Cats",
+      "contract_address": "0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69"
+    },
+    {
+      "name": "Moonbirds",
+      "contract_address": "0x23581767a106ae21c074b2276D25e5C3e136a68b"
+    },
+    {
+      "name": "Murakami.Flowers Official",
+      "contract_address": "0x7D8820FA92EB1584636f4F5b8515B5476B75171a"
+    },
+    {
+      "name": "Muri by Haus",
+      "contract_address": "0x4B61413D4392c806E6d0fF5Ee91E6073C21d6430"
+    },
+    {
+      "name": "Mutant Cats",
+      "contract_address": "0xaAdBA140Ae5e4c8a9eF0Cc86EA3124b446e3E46A"
+    },
+    {
+      "name": "My Curio Cards",
+      "contract_address": "0x73DA73EF3a6982109c4d5BDb0dB9dd3E3783f313"
+    },
+    {
+      "name": "My Pet Hooligan",
+      "contract_address": "0x09233d553058c2F42ba751C87816a8E9FaE7Ef10"
+    },
+    {
+      "name": "NFT Bored Bunny",
+      "contract_address": "0x9372b371196751dd2F603729Ae8D8014BbeB07f6"
+    },
+    {
+      "name": "NFT Worlds",
+      "contract_address": "0xBD4455dA5929D5639EE098ABFaa3241e9ae111Af"
+    },
+    {
+      "name": "Neo Tokyo: Identities",
+      "contract_address": "0x86357A19E5537A8Fba9A004E555713BC943a66C0"
+    },
+    {
+      "name": "Neo Tokyo: Outer Identities",
+      "contract_address": "0x698fbaaca64944376e2cdc4cad86eaa91362cf54"
+    },
+    {
+      "name": "NotBanksyEchoes",
+      "contract_address": "0x925f7eB0Fe634702049a1344119D4046965B5C8c"
+    },
+    {
+      "name": "Official Curiosities",
+      "contract_address": "0xA4A6848B22B2ff45D32e88A02C5aD2EeABD6763f"
+    },
+    {
+      "name": "PEACEFUL GROUPIES",
+      "contract_address": "0x4f89Cd0CAE1e54D98db6a80150a824a533502EEa"
+    },
+    {
+      "name": "PUNKS Comic",
+      "contract_address": "0x128675d4FddbC4a0D3f8aA777D8EE0fb8B427C2F"
+    },
+    {
+      "name": "Phanta Bears",
+      "contract_address": "0x67D9417C9C3c250f61A83C7e8658daC487B56B09"
+    },
+    {
+      "name": "Pixel Vault MintPass",
+      "contract_address": "0x33CfAe13A9486C29Cd3B11391cC7ECa53822e8c7"
+    },
+    {
+      "name": "Probably Nothing Genesis",
+      "contract_address": "0xB9aEcB63908c13b6167aD2eab9bAcD7e0DaBa78A"
+    },
+    {
+      "name": "Project Nanopass",
+      "contract_address": "0xf54cC94f1F2f5De012B6Aa51F1E7eBdc43Ef5afC"
+    },
+    {
+      "name": "Pudgy_penguins",
+      "contract_address": "0xbd3531da5cf5857e7cfaa92426877b022e612cf8"
+    },
+    {
+      "name": "Quacky Ducks Official",
+      "contract_address": "0x519272821dddb3Afc7aCcD1823B674d30946185E"
+    },
+    {
+      "name": "Queen Apes",
+      "contract_address": "0x1417404D0d92f9D21B046AFbaa9D1C4E17c4c723"
+    },
+    {
+      "name": "RTFKT - MNLTH",
+      "contract_address": "0x86825dfca7a6224cfbd2da48e85df2fc3aa7c4b1"
+    },
+    {
+      "name": "Raidparty Fighters",
+      "contract_address": "0x87E738a3d5E5345d6212D8982205A564289e6324"
+    },
+    {
+      "name": "Roboto Helmeto",
+      "contract_address": "0x099689220846644F87D1137665CDED7BF3422747"
+    },
+    {
+      "name": "Rumble Kong League",
+      "contract_address": "0xEf0182dc0574cd5874494a120750FD222FdB909a"
+    },
+    {
+      "name": "SUPERPLASTIC:Cryptojankyz",
+      "contract_address": "0x066f2D5ead7951F0d0038C19AffD500B9F02c0e5"
+    },
+    {
+      "name": "Sappy Seals",
+      "contract_address": "0x364C828eE171616a39897688A831c2499aD972ec"
+    },
+    {
+      "name": "Shindo-NFT",
+      "contract_address": "0x527aED8533A596a7ed939b7CEA5D14D8C056f82D"
+    },
+    {
+      "name": "ShinseiGalverse",
+      "contract_address": "0x582048C4077a34E7c3799962F1F8C5342a3F4b12"
+    },
+    {
+      "name": "Shinsekaicorp",
+      "contract_address": "0x98b82D9eFC577B1c3AA6578342121231db2B47b9"
+    },
+    {
+      "name": "SlimHoods",
+      "contract_address": "0x2931B181Ae9Dc8F8109eC41C42480933F411ef94"
+    },
+    {
+      "name": "Smilesss",
+      "contract_address": "0x177EF8787CEb5D4596b6f011df08C86eb84380dC"
+    },
+    {
+      "name": "Sneaky_Vampire_Syndicate",
+      "contract_address": "0x219b8ab790decc32444a6600971c7c3718252539"
+    },
+    {
+      "name": "Somnium Space VR",
+      "contract_address": "0x913ae503153d9A335398D0785Ba60A2d63dDB4e2"
+    },
+    {
+      "name": "SupDucks",
+      "contract_address": "0x3fe1a4c1481c8351e91b64d5c398b159de07cbc5"
+    },
+    {
+      "name": "SuperNormalbyZipcy",
+      "contract_address": "0xd532b88607b1877fe20c181cba2550e3bbd6b31c"
+    },
+    {
+      "name": "THE SHIBOSHIS",
+      "contract_address": "0x11450058d796B02EB53e65374be59cFf65d3FE7f"
+    },
+    {
+      "name": "Takashi",
+      "contract_address": "0x49cf6f5d44e70224e2e23fdcdd2c053f30ada28b"
+    },
+    {
+      "name": "TapeHeads",
+      "contract_address": "0xB5A86100F01883B9c9cf4CcC42daB9f56E21fb76"
+    },
+    {
+      "name": "Tasty Bones XYZ",
+      "contract_address": "0x1b79c7832ed9358E024F9e46E9c8b6f56633691B"
+    },
+    {
+      "name": "The CryptoDads",
+      "contract_address": "0xECDD2F733bD20E56865750eBcE33f17Da0bEE461"
+    },
+    {
+      "name": "The Heart Project",
+      "contract_address": "0xce50f3cA1F1Dbd6Fa042666bC0e369565dda457D"
+    },
+    {
+      "name": "The Sandbox ASSETS",
+      "contract_address": "0xa342f5D851E866E18ff98F351f2c6637f4478dB5"
+    },
+    {
+      "name": "The Sevens - Genesis",
+      "contract_address": "0xf497253C2bB7644ebb99e4d9ECC104aE7a79187A"
+    },
+    {
+      "name": "The Uncanny Country Club",
+      "contract_address": "0xF4Eac65bbC94E3bE2E3674992c31781032a6d793"
+    },
+    {
+      "name": "The Wicked Craniums",
+      "contract_address": "0x85f740958906b317de6ed79663012859067E745B"
+    },
+    {
+      "name": "The n project",
+      "contract_address": "0x05a46f1E545526FB803FF974C790aCeA34D1f2D6"
+    },
+    {
+      "name": "TheCurrency",
+      "contract_address": "0xaadc2d4261199ce24a4b0a57370c4fcf43bb60aa"
+    },
+    {
+      "name": "TrapMonkie",
+      "contract_address": "0xfa4020b0064aACdbb0ed8BEcac28C0C95bB29840"
+    },
+    {
+      "name": "Treeverse Plots",
+      "contract_address": "0x1B829B926a14634d36625e60165c0770C09D02b2"
+    },
+    {
+      "name": "Tubby_cats",
+      "contract_address": "0xca7ca7bcc765f77339be2d648ba53ce9c8a262bd"
+    },
+    {
+      "name": "VOX Collectibles Mirandus",
+      "contract_address": "0xf76179bb0924BA7da8E7b7Fc2779495D7A7939d8"
+    },
+    {
+      "name": "VOX Series 1",
+      "contract_address": "0xad9fd7cb4fc7a0fbce08d64068f60cbde22ed34c"
+    },
+    {
+      "name": "VeeFriends Series 2",
+      "contract_address": "0x9378368ba6b85c1FbA5b131b530f5F5bEdf21A18"
+    },
+    {
+      "name": "VeeFriends",
+      "contract_address": "0xa3AEe8BcE55BEeA1951EF834b99f3Ac60d1ABeeB"
+    },
+    {
+      "name": "Wassies by Wassies",
+      "contract_address": "0x1D20A51F088492A0f1C57f047A9e30c9aB5C07Ea"
+    },
+    {
+      "name": "Winter Bears",
+      "contract_address": "0xC8BcbE0E8ae36D8f9238cd320ef6dE88784B1734"
+    },
+    {
+      "name": "Wizards and dragons game(wnd)",
+      "contract_address": "0x999e88075692bCeE3dBC07e7E64cD32f39A1D3ab"
+    },
+    {
+      "name": "Wolf Game Legacy",
+      "contract_address": "0xEB834ae72B30866af20a6ce5440Fa598BfAd3a42"
+    },
+    {
+      "name": "Wolf Game",
+      "contract_address": "0x7F36182DeE28c45dE6072a34D29855BaE76DBe2f"
+    },
+    {
+      "name": "Worldwide Webb Land",
+      "contract_address": "0xA1D4657e0E6507D5a94d06DA93E94dC7C8c44b51"
+    },
+    {
+      "name": "Wrapped Cryptopunks",
+      "contract_address": "0xb7F7F6C52F2e2fdb1963Eab30438024864c313F6"
+    },
+    {
+      "name": "X Rabbits Club",
+      "contract_address": "0x534D37C630b7e4d2A6C1E064F3a2632739e9EE04"
+    },
+    {
+      "name": "ZombieClub Token",
+      "contract_address": "0x9c80777CAe192E5031c38A0d951C55730eCC3f5e"
+    },
+    {
+      "name": "hausphases by Haus",
+      "contract_address": "0x5be99338289909d6dbBC57bb791140Ef85cCbCAB"
+    }
+  ]
