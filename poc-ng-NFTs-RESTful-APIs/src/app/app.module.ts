@@ -16,6 +16,7 @@ import { DynamicApiKeyComponent } from './dynamic-api-key/dynamic-api-key.compon
 import { BoredApeBoardComponent } from './bored-ape-board/bored-ape-board.component';
 import { NftMediaComponent } from './nft-media/nft-media.component';
 import { NftRealTimePriceComponent } from './nft-real-time-price/nft-real-time-price.component';
+import { AllNftCollectionsComponent } from './all-nft-collections/all-nft-collections.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { NftRealTimePriceComponent } from './nft-real-time-price/nft-real-time-p
     BoredApeBoardComponent,
     NftMediaComponent,
     NftRealTimePriceComponent,
+    AllNftCollectionsComponent,
   ],
   imports: [
     BrowserModule,
