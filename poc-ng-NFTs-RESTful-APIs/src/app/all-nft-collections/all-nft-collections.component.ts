@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ReplaySubject } from 'rxjs';
+import { AllNftCollectionsService } from './all-nft-collections.service';
 
 @Component({
   selector: 'app-all-nft-collections',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AllNftCollectionsComponent implements OnInit {
 
-  constructor() { }
+  public response$!: ReplaySubject<any>;
+
+  constructor(private allNftCollectionsService: AllNftCollectionsService) { }
 
   ngOnInit(): void {
+    this.response$ = this.allNftCollectionsService.getPopularCollections();
   }
 
 }
